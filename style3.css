@@ -1,0 +1,18 @@
+script{
+  position:relative;
+}
+body{
+  background-color: gray;
+}
+h2 {
+  color: inherit;
+  font-family: inherit;
+  text-align: center;
+}
+h1 {
+    color: White;
+    text-shadow: 10px 2px black;
+  }
+.button {
+  margin-top: 470px;
+}

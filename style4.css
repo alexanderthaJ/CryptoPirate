@@ -1,0 +1,20 @@
+h1 {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 75px;
+}
+h2 {
+  color: inherit;
+  font-family: inherit;
+  text-align: center;
+}
+body {
+  background-color: grey;
+}
+h1 {
+  color: White;
+  text-shadow: 10px 2px black;
+}
+h2 {
+  color: white;
+}

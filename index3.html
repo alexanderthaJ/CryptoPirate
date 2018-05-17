@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>myWebsite</title>
+    <link href="style3.css" rel= "stylesheet" type= "text/css"/>
+    <meta charset="UTF-8"/>
+    <meta name="author" content="Jesse Alexander"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+    <meta name= "keywords" content=""/>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  </head>
+   <style>
+ .button {
+     box-shadow: 0 20px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+     border-radius: 12px;
+     background-color: orange;
+     border: 1px solid white;
+     color: white;
+     padding: 15px 25px;
+     text-align: center;
+     font-size: 16px;
+     cursor: pointer;
+     font-family:lobster;
+     text-decoration: none;
+     position: absolute;
+     right: 20px;
+ }
+
+ .button:hover {
+     background-color: black;
+ }
+   </style>
+<body>
+   <div>
+   <header>
+ <a class="button" href="index.html"> HOME </a>
+   </header>
+   </div>
+    <script>
+      (function(b,i,t,C,O,I,N) {
+        window.addEventListener('load',function() {
+          if(b.getElementById(C))return;
+          I=b.createElement(i),N=b.getElementsByTagName(i)[0];
+          I.src=t;I.id=C;N.parentNode.insertBefore(I, N);
+        },false)
+      })(document,'script','https://widgets.bitcoin.com/widget.js','btcwdgt');
+    </script>
+  </div>
+    <h1>
+        <div class="btcwdgt-chart"></div>
+        <div class="btcwdgt-price"></div>
+        <div class="btcwdgt-news-ticker"></div>
+      </h1>
+ </body>
+</html>
