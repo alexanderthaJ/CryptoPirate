@@ -1,0 +1,2 @@
+# CryptoPirate
+A Guiding Light
